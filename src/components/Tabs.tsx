@@ -1,4 +1,3 @@
-import React from 'react'
 export type TabKey = 'overview' | 'departments'
 
 export function Tabs(props: { value: TabKey; onChange: (k: TabKey) => void }) {

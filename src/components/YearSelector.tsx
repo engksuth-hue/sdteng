@@ -1,5 +1,3 @@
-import React from 'react'
-
 export function YearSelector(props: { years: number[]; value: number; onChange: (y: number) => void }) {
   const { years, value, onChange } = props
   return (

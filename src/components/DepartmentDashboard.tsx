@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 import type { DepartmentRow, YearRecord } from '../types'
 import { formatNumber, safeLower } from '../utils'
 import {
@@ -41,8 +41,8 @@ const COLORS = {
 export function DepartmentDashboard(props: { record: YearRecord }) {
 
   const [q, setQ] = useState('')
-  const [sortKey, setSortKey] = useState<SortKey>('department')
-  const [dir, setDir] = useState<'asc' | 'desc'>('asc')
+  const [sortKey] = useState<SortKey>('department')
+  const [dir] = useState<'asc' | 'desc'>('asc')
 
   const rows = useMemo(() => {
 

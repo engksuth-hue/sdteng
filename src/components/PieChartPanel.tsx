@@ -1,4 +1,3 @@
-import React from 'react'
 import { PieChart, Pie, Tooltip, ResponsiveContainer, Legend, Cell } from 'recharts'
 import type { YearRecord } from '../types'
 import { formatNumber } from '../utils'

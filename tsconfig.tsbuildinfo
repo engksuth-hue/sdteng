@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/types.ts","./src/utils.ts","./src/vite-env.d.ts","./src/components/barchartpanel.tsx","./src/components/departmentdashboard.tsx","./src/components/piechartpanel.tsx","./src/components/summarycards.tsx","./src/components/tabs.tsx","./src/components/yearselector.tsx"],"version":"5.9.3"}

@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import type { StudentsDataset, YearRecord } from './types'
 import { YearSelector } from './components/YearSelector'
 import { SummaryCards } from './components/SummaryCards'
