@@ -2,11 +2,7 @@
   "meta": {
     "faculty": "คณะวิศวกรรมศาสตร์",
     "university": "มหาวิทยาลัยกาฬสินธุ์",
-    "academic_years": [
-      65,
-      66,
-      67
-    ],
+    "academic_years": [65, 66, 67],
     "generated_at": "2026-01-20T07:36:17.546179"
   },
   "records": [
@@ -20,57 +16,49 @@
           "department": "ช่างกลโรงงาน",
           "intake_plan": 30,
           "new_intake": 12,
-          "retained": 11, 
-          "total": 53
+          "retained": 11
         },
         {
           "department": "เทคนิคยานยนต์",
           "intake_plan": 30,
           "new_intake": 10,
-          "retained": 9,
-          "total": 49
+          "retained": 9
         },
         {
           "department": "เทคโนโลยีโลจิสติกส์และการขนส่ง",
           "intake_plan": 30,
           "new_intake": 14,
-          "retained": 14,
-          "total": 58
+          "retained": 14
         },
         {
           "department": "เทคโนโลยีคอมพิวเตอร์และระบบอัตโนมัติ",
           "intake_plan": 30,
           "new_intake": 12,
-          "retained": 11,
-          "total": 53
+          "retained": 11
         },
         {
           "department": "ไฟฟ้ากำลัง",
           "intake_plan": 30,
           "new_intake": 14,
-          "retained": 13,
-          "total": 57
+          "retained": 13
         },
         {
           "department": "ดิจิทัลกราฟิก",
           "intake_plan": 30,
           "new_intake": 4,
-          "retained": 4,
-          "total": 38
+          "retained": 4
         },
         {
           "department": "เทคนิคสถาปัตยกรรม",
           "intake_plan": 30,
           "new_intake": 1,
-          "retained": 1,
-          "total": 32
+          "retained": 1
         },
         {
           "department": "เครื่องกลเกษตร",
           "intake_plan": 30,
           "new_intake": 6,
-          "retained": 6,
-          "total": 42
+          "retained": 6
         }
       ]
     },
@@ -79,59 +67,48 @@
       "intake_plan": 490,
       "new_intake": 163,
       "retained": 136,
-      "not_open": 340,
-      "total": 490,
       "by_department": [
         {
-          "department": " อส.บ.วิศวกรรมเครื่องจักรกลเกษตร",
+          "department": "อส.บ.วิศวกรรมเครื่องจักรกลเกษตร",
           "intake_plan": 20,
-          "new_intake": 8,
-          "retained": 8,
-          "total": 36   
+          "new_intake": 1,
+          "retained": 1
         },
         {
-          "department": "วศ.บ. วิศวกรรมคอมพิวเตอร์",
+          "department": "วศ.บ.วิศวกรรมคอมพิวเตอร์",
           "intake_plan": 20,
-          "new_intake": 8,
-          "retained": 7,
-          "total": 47
+          "new_intake": 14,
+          "retained": 14
         },
         {
-          "department": " วศ.บ. วิศวกรรมเครื่องกล",
+          "department": "วศ.บ.วิศวกรรมเครื่องกล",
+          "intake_plan": 30,
+          "new_intake": 9,
+          "retained": 11
+        },
+        {
+          "department": "วศ.บ.วิศวกรรมอุตสาหการ",
           "intake_plan": 30,
           "new_intake": 16,
-          "retained": 14,
-          "total":  60
-        },
-        {
-          "department": " วศ.บ. วิศวกรรมอุตสาหการ",
-          "intake_plan": 30,
-          "new_intake": 16,
-          "retained": 14,
-          "total": 60
+          "retained": 11
         },
         {
           "department": "วศ.บ.วิศวกรรมโลจิสติกส์",
           "intake_plan": 30,
-          "new_intake": 11,
-          "retained": 10,
-          "total": 51
+          "new_intake": 4,
+          "retained": 4
         },
         {
-          "department": "วศ.บ. เมคคาทรอนิกส์",
+          "department": "วศ.บ.เมคคาทรอนิกส์",
           "intake_plan": 30,
-          "new_intake": 0  ,
-          "retained": 0,
-          "total": 0
+          "new_intake": 0,
+          "retained": 0
         },
         {
           "department": "วิศวกรรมโลจิสติกส์",
           "intake_plan": 30,
-          "new_intake": 11,
-          "retained": 10,
-          "total": 51
-        },
-        {
+          "new_intake": 4,
+          "retained": 3
         }
       ]
     },
@@ -140,63 +117,54 @@
       "intake_plan": 520,
       "new_intake": 235,
       "retained": 215,
-      "total": 240,
       "by_department": [
         {
           "department": "วศ.บ.วิศวกรรมเครื่องกล",
           "intake_plan": 30,
-          "new_intake":28,
-          "retained": 19,
-          "total": 77
+          "new_intake": 28,
+          "retained": 19
         },
         {
           "department": "วศ.บ.วิศวกรรมเมคคาทรอนิกส์",
           "intake_plan": 30,
           "new_intake": 4,
-          "retained": 4,
-          "total": 38
+          "retained": 4
         },
         {
           "department": "วศ.บ.วิศวกรรมโลจิสติกส์",
           "intake_plan": 30,
           "new_intake": 16,
-          "retained": 11,
-          "total": 57
+          "retained": 11
         },
         {
           "department": "วิศวกรรมอุตสาหการ",
           "intake_plan": 30,
           "new_intake": 17,
-          "retained": 13,
-          "total": 60
+          "retained": 13
         },
         {
           "department": "วิศวกรรมคอมพิวเตอร์",
           "intake_plan": 30,
           "new_intake": 32,
-          "retained": 21,
-          "total": 83
+          "retained": 21
         },
         {
           "department": "วิศวกรรมเมคคาทรอนิกส์",
           "intake_plan": 30,
           "new_intake": 4,
-          "retained": 4,
-          "total": 38
+          "retained": 4
         },
         {
-          "department": " อส.บ.วิศวกรรมเครื่องจักรกลเกษตร",
+          "department": "อส.บ.วิศวกรรมเครื่องจักรกลเกษตร",
           "intake_plan": 30,
           "new_intake": 0,
-          "retained": 0,
-          "total": 30
+          "retained": 0
         },
         {
-          "department": ".สถ.บ.นวัตกรรมการออกแบบ",
+          "department": "สถ.บ.นวัตกรรมการออกแบบ",
           "intake_plan": 30,
           "new_intake": 21,
-          "retained": 15,
-          "total": 66
+          "retained": 15
         }
       ]
     }
