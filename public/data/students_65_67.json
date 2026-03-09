@@ -99,13 +99,13 @@
           "retained": 4
         },
         {
-          "department": "วศ.บ.เมคคาทรอนิกส์",
+          "department": "วศ.บ.วิศวกรรมเมคคาทรอนิกส์",
           "intake_plan": 30,
           "new_intake": 0,
           "retained": 0
         },
         {
-          "department": "วิศวกรรมโลจิสติกส์",
+          "department": "วศ.บ.วิศวกรรมโลจิสติกส์",
           "intake_plan": 30,
           "new_intake": 4,
           "retained": 3
@@ -137,19 +137,19 @@
           "retained": 11
         },
         {
-          "department": "วิศวกรรมอุตสาหการ",
+          "department": "วศ.บ.วิศวกรรมอุตสาหการ",
           "intake_plan": 30,
           "new_intake": 17,
           "retained": 13
         },
         {
-          "department": "วิศวกรรมคอมพิวเตอร์",
+          "department": "วศ.บ.วิศวกรรมคอมพิวเตอร์",
           "intake_plan": 30,
           "new_intake": 32,
           "retained": 21
         },
         {
-          "department": "วิศวกรรมเมคคาทรอนิกส์",
+          "department": "วศ.บ.วิศวกรรมเมคคาทรอนิกส์",
           "intake_plan": 30,
           "new_intake": 4,
           "retained": 4
