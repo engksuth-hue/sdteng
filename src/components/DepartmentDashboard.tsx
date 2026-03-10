@@ -26,16 +26,18 @@ function sortRows(
 ): DepartmentRow[] {
   const m = dir === 'asc' ? 1 : -1
   return [...rows].sort((a, b) => {
-    if (key === 'department') return a.department.localeCompare(b.department) * m
+    if (key === 'department') {
+      return a.department.localeCompare(b.department) * m
+    }
     return ((a as any)[key] - (b as any)[key]) * m
   })
 }
 
 /* ===== Color Theme ===== */
 const COLORS = {
-  plan: '#e0ff14',      // เลือดหมู
-  new: '#31f700',       // น้ำเงิน
-  retained: '#2929fb',  // เขียว
+  plan: '#e0ff14',
+  new: '#31f700',
+  retained: '#2929fb',
 }
 
 export function DepartmentDashboard(props: { record: YearRecord }) {
@@ -49,7 +51,7 @@ export function DepartmentDashboard(props: { record: YearRecord }) {
     let r = props.record.by_department
 
     if (q.trim()) {
-      r = r.filter(d =>
+      r = r.filter((d) =>
         safeLower(d.department).includes(safeLower(q))
       )
     }
@@ -86,18 +88,28 @@ export function DepartmentDashboard(props: { record: YearRecord }) {
 
         <ResponsiveContainer width="100%" height={420}>
 
-          <BarChart data={rows}>
+          <BarChart
+            data={rows}
+            margin={{
+              top: 20,
+              right: 30,
+              left: 70,
+              bottom: 110
+            }}
+          >
 
             <CartesianGrid strokeDasharray="3 3" opacity={0.2} />
 
             <XAxis
               dataKey="department"
-              angle={-15}
+              interval={0}
+              angle={-25}
               textAnchor="end"
-              height={80}
+              height={120}
+              tick={{ fontSize: 12 }}
             />
 
-            <YAxis />
+            <YAxis tick={{ fontSize: 12 }} />
 
             <Tooltip
               formatter={(v: number) => formatNumber(v)}
@@ -109,21 +121,21 @@ export function DepartmentDashboard(props: { record: YearRecord }) {
               dataKey="intake_plan"
               name="แผนการรับ"
               fill={COLORS.plan}
-              radius={[6,6,0,0]}
+              radius={[6, 6, 0, 0]}
             />
 
             <Bar
               dataKey="new_intake"
               name="นศ.แรกเข้า"
               fill={COLORS.new}
-              radius={[6,6,0,0]}
+              radius={[6, 6, 0, 0]}
             />
 
             <Bar
               dataKey="retained"
               name="จำนวนคงอยู่"
               fill={COLORS.retained}
-              radius={[6,6,0,0]}
+              radius={[6, 6, 0, 0]}
             />
 
           </BarChart>
@@ -147,17 +159,14 @@ export function DepartmentDashboard(props: { record: YearRecord }) {
           </thead>
 
           <tbody>
-
             {rows.map((d, i) => (
               <tr key={i}>
                 <td>{d.department}</td>
                 <td>{formatNumber(d.intake_plan)}</td>
                 <td>{formatNumber(d.new_intake)}</td>
                 <td>{formatNumber(d.retained)}</td>
-
               </tr>
             ))}
-
           </tbody>
 
         </table>
