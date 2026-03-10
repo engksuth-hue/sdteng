@@ -72,7 +72,7 @@ export function BarChartPanel(props: { records: YearRecord[] }) {
               formatter={(v: any) => formatNumber(Number(v))}
               contentStyle={{
                 borderRadius: 10,
-                border: '1px solid #2b0c6e'
+                border: '1px solid #0d345d'
               }}
             />
 

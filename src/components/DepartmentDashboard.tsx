@@ -35,7 +35,7 @@ function sortRows(
 const COLORS = {
   plan: '#e0ff14',      // เลือดหมู
   new: '#31f700',       // น้ำเงิน
-  retained: '#0c0b67',  // เขียว
+  retained: '#2929fb',  // เขียว
 }
 
 export function DepartmentDashboard(props: { record: YearRecord }) {
@@ -154,7 +154,7 @@ export function DepartmentDashboard(props: { record: YearRecord }) {
                 <td>{formatNumber(d.intake_plan)}</td>
                 <td>{formatNumber(d.new_intake)}</td>
                 <td>{formatNumber(d.retained)}</td>
-                <td>{formatNumber(d.total)}</td>
+
               </tr>
             ))}
 
