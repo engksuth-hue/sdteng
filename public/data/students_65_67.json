@@ -70,21 +70,21 @@
       "by_department": [
         {
           "department": "อส.บ.วิศวกรรมเครื่องจักรกลเกษตร",
-          "intake_plan": 30,
-          "new_intake": 9,
-          "retained": 11
+          "intake_plan": 20,
+          "new_intake": 1,
+          "retained": 1
         },
         {
           "department": "วศ.บ. วิศวกรรมคอมพิวเตอร์",
-          "intake_plan": 30,
-          "new_intake": 0,
-          "retained": 0
+          "intake_plan": 20,
+          "new_intake": 14,
+          "retained": 14
         },
         {
           "department": "วศ.บ. วิศวกรรมเครื่องกล",
           "intake_plan": 30,
-          "new_intake": 4,
-          "retained": 4
+          "new_intake": 11,
+          "retained": 9
         },
         {
           "department": "วศ.บ. วิศวกรรมอุตสาหการ",
@@ -95,14 +95,14 @@
         {
           "department": "วศ.บ. วิศวกรรมโลจิสติกส์",
           "intake_plan": 30,
-          "new_intake": 14,
-          "retained": 14
+          "new_intake": 4,
+          "retained": 4
         },
         {
           "department": "วศ.บ. เมคคาทรอนิกส์",
-          "intake_plan": 20,
-          "new_intake": 1,
-          "retained": 1
+          "intake_plan": 30,
+          "new_intake": 9,
+          "retained": 6
         }
       ]
     },
